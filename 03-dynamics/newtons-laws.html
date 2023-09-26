@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Newton's Laws</title>
+        <meta name="description" content="O-level Physics Dynamics Newton's Laws">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+        </script> 
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 03 Dynamics</h1>
+        <h2>Newton's Laws</h2>
+        
+        <h3>Newton's First Law of Motion</h3>
+        
+        <blockquote>A body will remain in its state of rest or uniform motion in a straight line unless acted upon by a resultant force.</blockquote>
+        
+        <p>The resultant force is the single force obtained by finding the vector sum of forces acting on the body.</p>
+        
+        <p>From Newton’s first law, it means that for an object that is moving with constant velocity, it experiences zero net force. However, from our daily experience, it seems that a force has to be exerted to keep an object moving with constant velocity. This is because of the presence of frictional force, which opposes motion. Therefore, for a body that is moving at constant velocity, the force exerted and the frictional force adds up to zero (they are directed in the opposite directions and have the same magnitude).</p>
+        
+        <table width="100%"><tr><td>
+            <p>Which of the following scenarios show a body acted upon by a resultant force?</p>
+            
+            <ol><li> a body at rest</li>
+            <li>a body moving in a straight line at a constant speed.</li>
+            <li>a body moving in a circular path at a constant speed.</li>
+            <li>a body moving falling from rest.</li></ol>
+            
+            <p>A. 1 and 2<br>
+            B. 1, 2 and 3<br>
+            C. 3 and 4<br>
+            D. 4 only </p>
+            
+            <button id="btn1" data-div="ans1" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans1" style="display:none">
+                <p>C. 3 and 4.</p>
+                <p>A body moving in a circular path will have a changing velocity even if its magntitude is constant, as its direction is changing. A body falling from rest is undergoing gravitational force and hence, accelerating.</p></div>
+            
+            </td></tr></table>
+        
+        <h3>Newton's Second Law of Motion</h3>
+        
+        <blockquote>The resultant force acting on an object of a constant mass is the product of the mass and acceleration of the object. The object accelerates in the direction of the resultant force.</blockquote>
+        
+        <p>For a body of constant mass, $$F_{net} = ma$$</p>
+        <p align="center">where $F_{net}$ is the resultant or net force (unit: N),<br>$m$ is the mass (unit: kg), and<br>$a$ is the acceleration (unit: m s<sup>-2</sup>)</p>
+        
+        <p>If the resultant force is zero, (all forces are balanced), then acceleration is zero. The object is either at rest or moving at constant velocity. Hence, the first law of motion is a special case of the second law. When resultant force is not zero, this means that forces acting on the body are unbalanced.</p>
+        
+        <p>There will be many examples for practice in the next page. For now, let's try something simple.</p>
+
+        <table width="100%"><tr><td>
+            <p>The mass of a lift is 2000 kg. When the tension in the supporting cable is 28 000 N, its acceleration is:</p>
+            <p>A. 4.2 m s<sup>-2</sup> upwards<br>
+            B. 4.2 m s<sup>-2</sup> downwards<br>
+            C. 14 m s<sup>-2</sup> upwards<br>
+            D. 30 m s<sup>-2</sup> downwards </p>
+            
+            <button id="btn1" data-div="ans2" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans2" style="display:none">
+                <p>A. 4.2 m s<sup>-2</sup> upwards</p>
+                    $$\begin{aligned}
+                    W &= 2000 \times 9.81 \\
+                    &= 19 600 N\\
+                    \end{aligned}$$
+                                     
+                    Since T > W, the net force and acceleration are upward. We will express the net force as the difference between T and W. Ensure that the difference is positive (i.e. take T - W instead of W - T),  as acceleration is taken to be positive.
+
+                    $$\begin{aligned}
+                    F_{net} &= ma \\
+                    T - W &= ma \\
+                    28000 - 19600 &= (2000)a\\
+                    a &= 4.2 m s^{-2}\\
+                    \end{aligned}$$</div>
+            </td></tr></table>
+        
+        <h3>Newton's Third Law of Motion</h3>
+        
+        <blockquote>If body A exerts a force on body B, then body B exerts an equal and opposite force on body A.</blockquote>
+        
+        <p>The forces mentioned in the Third Law are known as action-reaction pairs and they must fulfill these 3 criteria:</p>
+        <ol><li>be of the same type (i.e. a gravitational force and an electric force cannot constitute an action-reaction pair)</li>
+        <li>act on different bodies</li>
+        <li>be equal in magnitude and opposite in direction</li></ol>
+        <p>Some examples of action-reaction pairs:</p>
+<ol><li>The gravitational forces of attraction between the Earth and the Moon.</li>
+<li>Electric forces of attraction between an electron and a proton.</li>
+<li>The normal contact force exerted by a table on a book resting on it and the normal contact force exerted by the book on the table.</li>
+</ol>
+
+<table width="100%"><tr><td>
+            <p>In a game of tug of war, team A consists of members with a larger total mass than team B. Team B, however, eventually wins the competition due to superiority in strength. What can we say about the forces each team exerts on the other team?</p>
+            <p>A. Team A exerts a larger tension on team B than team B exerts on team A.<br>
+            B. Team A exerts a smaller tension on team B than team B exerts on team A.<br>
+            C. Team A exerts a tension on team B that is equal to the tension exerted by team B on team A.<br>
+            D. Team A exerts a tension on team B while team B does not exert any tension.</p>
+            
+            <button id="btn1" data-div="ans3" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans3" style="display:none">
+            <p>C. The magnitude of action-reaction pairs must be equal.</div>
+            </td></tr></table>
+    
+       
+        <div id="footer"></div>        
+    </body>
+</html>
+
