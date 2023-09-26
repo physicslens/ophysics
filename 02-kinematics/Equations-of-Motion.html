@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Equations of Motion</title>
+        <meta name="description" content="O-level Physics Kinematics Equations of Motion">
+        <meta name="keywords" content="O-level, Physics, Kinematics, Equations of Motion">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+        </script> 
+    
+    
+    </head>
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 02 Kinematics</h1>
+        <h2>Equations of Motion</h2>
+        
+        <h3>Uniform Acceleration in a Straight Line</h3>
+        <p>There is a set of equations that can be used for quick calculations involving the kinematics quantities of displacement, velocity, acceleration and time. In order for these equations to be valid, certain conditions need to be fulfilled. They are:</p>
+            <ol>
+                <li>the acceleration is constant</li>
+                <li>the motion is rectilinear (body is moving along a straight line e.g. left-right, up-down)</li>
+            </ol>
+
+        <p>Consider a body moving with an initial velocity $u$ and travels to the right with constant acceleration $a$ for a time $t$ when its final velocity is $v$. The velocity-time graph of the body can be expressed as shown below.</p>
+        
+        <img src="velocity-time-graph.png" alt="Velocity-time graph" width="320px">
+        
+        <h3>Derivation of Equations</h3>
+        
+        <p>The first of the 4 equations of motion can be obtained from the gradient of the graph. Since the uniform acceleration is the rate of change of velocity over time, it can be written as $a = \dfrac{v - u}{t}$. Shifting the terms around, we have 
+            $$\begin{align}v = u + at
+            \end{align}$$
+        </p>
+        <p>The second equation is based on the fact that the area under the v-t graph gives the change in displacement. Finding the area of the trapezium, we have             
+            $$\begin{align}s = \dfrac{1}{2}(u +v)t
+            \end{align}$$</p>
+        
+        <p>Substituting equation (1) into equation (2), thus removing $v$ from the equation, we have
+            $$\begin{align}s = ut + \dfrac{1}{2}at^2
+            \end{align}$$</p>
+    
+         <p>Substituting a different form of equation (1), $t = \dfrac{v - u}{a}$, into equation (2) (thus removing $t$ from the equation), we have
+            $$\begin{align}v^2 = u^2 + 2as
+            \end{align}$$</p>
+        
+        
+        <h3>GeoGebra Interactive</h3>
+        <iframe scrolling="no" title="Equations of Motion" src="https://www.geogebra.org/material/iframe/id/mfvvhjrj/width/700/height/480/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="700px" height="480px" style="border:0px;"> </iframe>
+        
+        
+        <h3>Checking for Understanding <a href="https://docs.google.com/forms/d/e/1FAIpQLSc77JmOn4e3S18ttpJ01cecqesESumYPA-tEIgL-M0jSjpvkQ/viewform" target="_blank">link</a></h3>
+        
+        
+        <div id="footer"></div>        
+    </body>
+</html>
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Nucleus</title>
+        <meta name="description" content="O-level Physics Radioactivity The Nucleus">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+
+        </script> 
+        
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 20 Radioactivity</h1>
+        
+        <h2>20.1 The Nucleus</h2> (<a id="btn1" data-div="obj" onclick="reveal(this)">Objectives</a>)
+        <ol type="a" id="obj" style="display:none">
+                <li>describe the composition of an atom in terms of a positively charged nucleus (with protons and neutrons) and negatively charged electrons</li>
+                <li>use the terms proton (atomic) number Z, nucleon (mass) number A and isotope</li>
+                <li>use and interpret the term nuclide and use the nuclide notation $^A_ZX$</li>
+        </ol>
+   
+        <h3>20.1.1 History of the Atomic Model</h3>
+        
+        <p>The model in the days of Newton was that of a tiny hard and indestructible sphere. This model provided a good basis for the kinetic theory of gases. However, new models had been devised when later experiments revealed the electrical nature of atoms.</p>
+        <p>Following his discovery of the electron in 1897, J.J. Thomson proposed the ‘plum-pudding’ model for the atom. This model described the atom as consisting of negative electrons embedded in a sphere of uniformly positive charge held together by means of electrostatic force only.</p>
+        <p>In about 1910, Earnest Rutherford with his research students Geiger and Marsden, used a beam of positively charged alpha particles (α-particle) to fire on a thin sheet of gold foil to probe the internal structure of the gold atom.</p>
+        <figure>
+        <a title="Kurzon, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Geiger-Marsden_experiment_expectation_and_result.svg"><img width="512" alt="Geiger-Marsden experiment expectation and result" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Geiger-Marsden_experiment_expectation_and_result.svg/512px-Geiger-Marsden_experiment_expectation_and_result.svg.png"></a> 
+        <figcaption>Thomson's Model and Rutherford's Model of the Atom</figcaption>
+</figure>
+        <p>Significant findings of the experiment were:</p>
+            <ol>
+                <li>Most alpha particles passed straight through the foil with very little or no scattering. One can conclude that the mass of the atom is concentrated in a very small volume at the centre of the atom (or nucleus). Alpha particles, which are also charged, passing close to the charged nucleus experience a repulsive force causing them to scatter. (Based on Thomson's model, <i>all</i> the alpha particles would pass through the gold foil with little or no scattering as the mass of the atom is not concentrated as the centre.)</li>
+                <li>A very small number (about 1 in 10000) were scattered more than 90°. One can conclude that only alpha particles that pass very close to the nucleus experience large enough repulsive forces to scatter more than 90°. This confirms that the nucleus is very small, and that most of the atom is empty space.</li></ol>
+        
+        <h3>20.1.2 Structure of the Nucleus</h3>
+        
+        <p>Rutherford's model of the atom has the positive charge and mass of the atom concentrated in a very small central nucleus of the atom. A cloud of electrons are in orbit around the nucleus, much like the planets orbiting the sun.</p>
+        <figure>
+            <a title="AG Caesar, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Atom_Diagram.svg"><img width="512" alt="Atom Diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_Diagram.svg/512px-Atom_Diagram.svg.png"></a>
+        <figcaption>The positively-charged nucleus comprising protons and neutrons surrounded by negatively-charged electrons</figcaption>
+        </figure>
+                
+        <p>All nuclei are composed of two types of nucleons (or particles): protons and neutrons. The only exception is the hydrogen nucleus which is a single proton.</p>
+        <p>The proton is about 1836 times heavier than the electron. It carries a single positive charge, equal in magnitude to the charge of the electron. The neutron is uncharged and has a mass slightly greater than the proton.</p>
+        <p>The protons in the nucleus repel each other with repulsive Coulomb force. But the protons and neutrons are held together in the nucleus by a strong and short range attractive strong nuclear force. The nucleus on the whole is positive. However, the atom is electrically neutral since there are equal negatively charged orbiting electrons as the protons.</p>
+        
+        <p>The radius of an atom is of the order of 10<sup>-10</sup> m while the nuclear size is estimated to be 10<sup>-15</sup> m to 10<sup>-14</sup> m.</p>
+        
+        <p><strong>Proton number</strong> (also known as <strong>atomic number</strong>) $Z$ is the number of protons in the nucleus. Therefore, it is equal to the number of electrons in a neutral atom. It defines the chemical characteristics of an atom and the place of the element in the periodic table.</p>
+        
+        <p><strong>Neutron number</strong> $N$ is the number of neutrons in the nucleus.</p>
+        
+        <p><strong>Nucleon number</strong> (also known as <strong>mass number</strong>) $A$ is the sum of the number of protons and neutrons (i.e. the number of nucleons) in the nucleus.</p> 
+        
+        <p>In other words, $A = Z + N$.</p>
+        
+        
+        <table width="100%"><tr><td>
+            <h4>Example</h4>
+            <p>
+                The conventional notation for the iron nucleus is $^{56}_{26}\text{Fe}$. State	</p>
+            <ol type="a"><li>the number of protons,</li><li>the number of neutrons,</li>
+                <li>the nucleon number, in its nucleus.</li></ol>
+            
+            <button id="btn1" data-div="ans1" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans1" style="display:none">
+            <ol type="a"><li>26</li><li>30</li>
+                <li>56</li></ol>
+</div>
+            
+            </td></tr></table>
+
+        <h3>20.1.3 Isotopes</h3>
+        
+        <p><strong>Isotopes</strong> are atoms of the same element with the same number of protons but different number of neutrons. They are chemically the same, but have different masses.</p>
+        <p>For example, $^{12}_6\text{C}$, $^{13}_6\text{C}$, $^{14}_6\text{C}$ and $^{11}_6\text{C}$  are some isotopes of carbon. The natural abundances of the isotopes can differ substantially. The natural abundance of $^{12}_6\text{C}$ isotope is about 98.9%, whereas $^{13}_6\text{C}$ isotope is only about 1.1%.</p>
+
+       <figure><a title="Dirk Hünniger;
+
+ Derivative work in english - Balajijagadesh, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hydrogen_Deuterium_Tritium_Nuclei_Schmatic-en.svg"><img width="512" alt="Hydrogen Deuterium Tritium Nuclei Schmatic-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hydrogen_Deuterium_Tritium_Nuclei_Schmatic-en.svg/512px-Hydrogen_Deuterium_Tritium_Nuclei_Schmatic-en.svg.png"></a>
+                <figcaption>The 3 isotopes of hydrogen. Note that they each have exactly one proton but a different number of neutrons.</figcaption>
+        </figure>
+        
+<table width="100%"><tr><td>
+    <h4>Example</h4>
+    <p>The nuclear notation of an isotope of nitrogen is $^{14}_7\text{N}$. Which of the following is another isotope of nitrogen?</p>
+                
+    <div id='block-1' style='padding: 5px;'>
+    <label for='15N7' style=' padding: 5px;'>
+      <input type='radio' name='option' value='15N7' id='option-1' style='margin-right: 5px; vertical-align: middle; ' />
+      $^{15}_7\text{N}$</label>
+    <span id='result-1'></span></div>
+    <div id='block-2' style='padding: 5px;'>
+    <label for='15N8' style=' padding: 5px;'>
+      <input type='radio' name='option' value='15N8' id='option-2' style='margin-right: 5px; vertical-align: middle; ' />
+      $^{15}_8\text{N}$</label>
+    <span id='result-2'></span></div>
+       <div id='block-3' style='padding: 5px;'>
+    <label for='14N8' style=' padding: 5px;'>
+      <input type='radio' name='option' value='14N8' id='option-3' style='margin-right: 5px; vertical-align: middle; ' />
+      $^{14}_8\text{N}$</label>
+    <span id='result-3'></span></div>
+                
+    <script>
+                
+    function displayAnswer1() {
+    if (document.getElementById('option-1').checked) {
+        document.getElementById('result-1').style.color = 'green'
+        document.getElementById('result-1').innerHTML = 'Correct!'
+    }
+    if (document.getElementById('option-2').checked) {        
+        document.getElementById('result-2').style.color = 'red'
+        document.getElementById('result-2').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+    if (document.getElementById('option-3').checked) {
+        document.getElementById('result-3').style.color = 'red'
+        document.getElementById('result-3').innerHTML = 'Incorrect!'
+      showCorrectAnswer1()
+    }
+  }
+
+        </script>
+                                             
+                
+            <button id="btn1" data-div="ans1" onclick="displayAnswer1()">Check Answer</button>
+
+            
+            </td></tr></table>
+
+        <div id="footer"></div>        
+    </body>
+</html>
+
