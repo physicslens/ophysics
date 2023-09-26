@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Free Body Diagrams</title>
+        <meta name="description" content="O-level Physics Dynamics Free Body Diagrams">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+        </script> 
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 03 Dynamics</h1>
+        <h2>Free Body Diagrams</h2>
+        
+        <h3>Modelling for Problem Solving</h3>
+    
+        <p>A free body diagram is a drawing of a model that represents the forces acting on an object, allowing students to visualise a problem before solving it.</p>
+        
+        <p>The following are the steps to drawing a free-body diagram:</p>
+<ol>
+<li>Identify the body of interest i.e. the body that you want to draw the free body. Draw a simple sketch of the body alone. </li>
+    <li>For every force acting on that object, draw a vector arrow to represent the force. The vector arrow begins at the point of application of the force (e.g. the weight vector begins at the centre of gravity, normal contact force begins at the point of contact). The size of the vector arrow is proportional to the magnitude of the force and the direction of the arrow shows the direction that the force is acting. </li> 
+<li>Label each force arrow to indicate the exact type of force.</li>
+    <li>You may also wish to indicate the direction of acceleration, if any. 
+(not on the body itself)</li>
+</ol>
+
+        <p>Using the applet below, change the magnitudes of the forces acting on the box and observe the resulting effect, i.e. the acceleration. The free body diagram in the applet shows the box as a point mass, with the 4 forces acting on the box pointing from the same point. This is a simpler model of the free body diagram, as treating the body as a point mass removes the need to carefully indicate the points of applications of the forces. This allows the student to focus on solving for acceleration.</p>
+        <iframe scrolling="no" title="Dynamics Problem" src="https://www.geogebra.org/material/iframe/id/uthszwjq/width/640/height/480/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="640px" height="480px" style="border:0px;"> </iframe>
+        
+       
+        <div id="footer"></div>        
+    </body>
+</html>
+
