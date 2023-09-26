@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Types of Forces</title>
+        <meta name="description" content="O-level Physics Types of Forces">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+        </script> 
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 03 Dynamics</h1>
+        <h2>Types of Forces</h2>
+        
+        <h3>Weight</h3>
+        <p>All matter has mass. <strong>Mass</strong> is a measure of the amount of substance in a body. The tendency of a body to resist a change in the state of rest or motion depends on its mass and is known as <strong>inertia</strong>.</p>
+        <p>A <strong>gravitational field</strong> is a region in which a mass experiences a force due to gravitational attraction. This attractive force is known as weight, and is given by $$W = mg$$</p><p align="center">where $W$ is weight (unit: Newton or N),<br>$m$ is the mass (unit: kg), and<br>$g$ is the gravitational field strength (unit: N kg<sup>-1</sup>)</p>
+        <p><strong>Gravitational field strength</strong>, g, is defined as gravitational force per unit mass.</p>
+        
+        <table><tr><td>
+            <p>The gravitational field strength on Earth is about 9.8 N kg<sup>-1</sup> while that on the Moon is 1.6 N kg<sup>-1</sup>. Hence, the weight of a 1.0 kg object on Earth is 9.8 N and its weight on the Moon is 1.6 N.</p>
+            
+            <p>What is the gravitational field strength on the surface of Jupiter if a 2.0 kg mass experiences a weight of 50 N?</p>
+            
+            <button id="btn1" data-div="ans1" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans1" style="display:none">
+                <p>This can be calculated using the equation: 
+                    $$\begin{aligned}
+                    W &= mg \\
+                    50 &= 2.0 \times g \\
+                    g &= \dfrac{50}{2.0} \\
+                    &= 25 \text{ N kg}^{-1}
+                    \end{aligned}$$</p></div>
+            
+            </td></tr></table>
+        
+        <h3>Normal Contact Force</h3>
+        <p>The <strong>normal contact force</strong> is the perpendicular force exerted by the surface of one object on the surface of another when they are in physical contact. It prevents the objects from passing through each other.</p>
+                
+        <p>Characteristics of the normal contact force:</p>
+        <ol>
+            <li>It only exists when an object is in contact with something else.</li>
+            <li>It is always perpendicular to the contact surface, and its direction is through the object of interest.</li>
+            <li>Unlike weight, the normal force does not always pass through the CG of object.</li>
+            <li>Its magnitude can change; it is not always equal to the weight of the object! However, in most typical cases, the magnitude of normal contact force is equal to the weight of the object and when this condition is met, the object is said to be in equilibrium.</li>
+        </ol>
+        
+        <p>The following interactive shows the changes in the magnitude and direction of the normal contact force $N$ as the angle of the slope on which an object rests changes. If the surface is inclined, the normal must also be inclined such that it remains perpendicular (or <i>normal</i>) to the surface. Notice that the weight $W$ does not change.</p>
+        <iframe scrolling="no" title="Forces on a Box on a Slope" src="https://www.geogebra.org/material/iframe/id/rjjcwc7k/width/638/height/478/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="638px" height="478px" style="border:0px;"> </iframe>
+
+        <h3>Friction</h3>
+        
+        <p><strong>Friction</strong> is the contact force that acts between objects that opposes or tends to oppose or resist motion. It always act opposite to the direction of motion at the point of contact.</p>
+        
+        <p>Characteristics of the frictional force:</p>
+        <ol>
+            <li>When the contact surfaces of both objects are smooth, there is little or no frictional force during motion, and can be ignored.</li>
+            <li>When the contact surfaces are rough, frictional force on the body becomes non-negligible.</li>
+            <li>It is directed parallel to the surface.</li>
+            <li>The magnitude of friction is dependent on the normal force and the type/nature of the contact surfaces and is given by:</li>
+        </ol>
+        <p align="center"><font color="red">Note: this equation is not in syllabus.</font></p>
+        $$f = \mu N$$
+        <p align="center">where $f$ is friction (unit: Newton or N),<br>$\mu$ is the coefficient of friction, and<br>$N$ is the normal contact force (unit: N)</p>
+
+        <h3>Viscous Force</h3>
+        
+        <p>When a solid moves in a fluid (i.e. liquid or gas), it will experience a resistance in the direction opposite to its motion. This resistance is called the <strong>viscous force</strong> or <strong>drag</strong>. It is also known as air resistance when the body moves in air.</p>
+        
+        <p>The viscous force is found to be dependent on the speed of the object and the surface area of the object. The greater the speed, the larger the viscous force. The greater the surface area, the larger the viscous force.</p>
+        
+        <p>Viscous force also depends on the nature of fluid involved, such as viscosity. For example, the viscous force is higher in liquid than in air for the same object having the same speed. It is also higher in viscous liquid like oil when compared to water.</p>
+        
+        <h3>Elastic Force</h3>       
+        
+        <p>An elastic force is one that resists a change in shape. can be tension or compressive.</p>
+        <p>If we hang a weight at the lower end of a spring, as the magnitude of the weight increases, the spring becomes longer. The increase in length of spring is called the extension. And the force that is being applied is called the tension.</p>
+        <p>On the other hand, when a force is being applied such that it causes the spring to be compressed, the decrease in length of the spring is called the compression. And the force that is being applied is called the compressive force. Both tension and compressive forces are elastic forces. </p>
+        <p><strong>Hooke's Law</strong> states that within the limit of proportionality, the extension or compression, <em>x</em>, produced is directly proportional to the elastic force <em>F</em>. In equation form, it is given by</p>$$F = kx$$
+        <p align="center">where $F$ is the elastic force (unit: N),<br>$k$ is the spring constant (unit: N m<sup>-1</sup>), and<br>$x$ is the extension or compression (unit: m)</p>
+        
+        
+        In the simulation below, you can modify the amount of mass hanging off two springs that are identical by default. A ruler can be used to measure the extension of the spring.
+        
+        <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs-basics/latest/masses-and-springs-basics_en.html" width="638px" height="478px"></iframe>
+        
+        <h3>Checking for Understanding <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeQE6rZ4dTNBakI399hsmU_C3XcFjqoCwnGxuGUOsssXJ1EA/viewform" target="_blank">link</a></h3>
+        
+       
+        <div id="footer"></div>        
+    </body>
+</html>
+

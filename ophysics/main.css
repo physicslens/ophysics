@@ -1,0 +1,136 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+    display: inline;
+}
+
+blockquote {
+    background-color: lightyellow;
+    margin: 30;
+    font-style: italic;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    background: transparent;
+    border: 0px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+th, td {
+    padding: 15px;
+    background-color: #D6EEEE;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+    
+li ul { display: none; }
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+ul li a:hover { background: #2c3e50; }
+    
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+li:hover li { float: none; }
+li:hover a { background: #1bc2a2; }
+li:hover li a:hover { background: #2c3e50; }
+li ul li { border-top: 0; }
+    
+    
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+    
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+ul:after { clear: both; }
+
+ul li:hover>a {
+  background-color: #0abf53;
+  color: #ffffff !important;
+}
+
+ul li:hover>ul {
+  display: block;
+}
+
+figure {
+  float: none;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 10;
+  border: thin silver solid;
+  margin: 1em;
+  padding: 1em;
+}

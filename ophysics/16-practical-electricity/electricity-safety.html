@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Electrical Power</title>
+        <meta name="description" content="O-level Physics Practical Electricity">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+            document.title = document.title = "TJC Physics - " + (location.pathname.substring(location.pathname.lastIndexOf("/") + 1)).toUpperCase().replace('.html','').replace('-',' ')
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+        </script> 
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 14 Practical Electricity</h1>
+        <h2>Electrical Safety</h2>
+        
+        <h3>Common Dangers</h3>
+        
+        <p>Electric shocks and fire are usually caused by:</p>
+        <ol><li>Using wires with <strong>damaged insulation</strong> which could lead to electric shock if a bare or exposed live wire is touched or fire due to a short circuit that causes overheating.</li>
+        <li><strong>Overloading</strong> of cables which could lead to fires. Overheating could be caused by connecting too many applicances to one power outlet or the use of thin wires for large currents. A <a href="https://www.channelnewsasia.com/singapore/water-heater-safety-electrocution-deaths-lakeside-experts-2558816">recent accident in Singapore</a> that caused the death of 3 people occurred as a result of the overloading of cables connected to a water heater.</li>
+        <li><strong>Water</strong>, or rather, the ions dissolved in water could provide an alternative path for current to flow. </li></ol>
+        
+        <h3>Safety Features in the Household Circuit</h3>
+        
+        <ol><li>A <strong>fuse</strong> is a safety device connected to the live wire to prevent excessive current flow. It consists of a short piece of thin wire that is designed to melt and break (thus creating an open circuit) when the current passing through it exceeds its specified value. The fuse must be replaced after it blows. </li>
+        <li>A <strong>circuit breaker</strong> is a safety device connected to live wires which can switch off the electrical supply when a large current flows through it. Circuit breakers are usually electromagnetic switches which can be conveniently reset after the fault has been corrected.</li>
+            <li>The <strong>earth wire</strong>, when used, is connected to the metal casing of an appliance and directed to the ground. In the event that a stray wire or any fault causes the live wire to be connected to the metal casing, the earth wire provides a path to the ground for the current when the switch is closed, causing a sudden surge in current which then either blows the fuse or activates the circuit breaker.</li>
+            <li><strong>Double insulation</strong> refers to the insulation of both the electrical cables from the internal components and the insulation of the internal components from the external casings. The external casing might be made of a non-conducting material such as plastic.</li>
+        </ol>
+        
+        <p>Use the applet below to observe the parts of the electric circuit that becomes live (indicated with red lines) when the switch is closed and a fault occurs. Think about how the fuse and the earth wire helps to switch the circuit off automatically when a fault occurs, thus preventing electric shocks or fires.</p>
+        <iframe scrolling="no" title="Practical Electricity" src="https://www.geogebra.org/material/iframe/id/szkqxs8z/width/640/height/480/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="640px" height="480px" style="border:0px;"> </iframe>
+        
+        
+        
+        <table width="100%"><tr><td>
+            <p>How do the safety features in a household circuit prevent the metal casing in a household appliance from staying live when a stray live wire becomes connected to its metal casing?</p>
+            
+            <button id="btn1" data-div="ans1" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans1" style="display:none">
+            <p>For a device using a metal casing, an <strong>earth wire</strong> and a <strong>fuse</strong> or <strong>circuit breaker</strong> will prevent the device from staying live. When the switch comes on, a large current will flow to the earth thus blowing the fuse or activating the circuit breaker.</p>
+            
+            <p>For a device using <strong>double insulation</strong>, even if the live wire touches the internal components, the user is still insulated from the live components due to the external casing (e.g. plastic).</p></div>
+            
+            </td></tr></table>
+        
+               <table width="100%"><tr><td>
+          
+            <p>How do the safety features in a household circuit prevent the wires from overheating when the live wire in an applicance becomes connected directly to the neutral wire?</p>
+            
+            <button id="btn1" data-div="ans2" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans2" style="display:none">
+            <p>When the switch is closed, a large current passes directly from the live wire to the neutral wire, bypassing the heating element. (This is called a short circuit.) The heat generated then blows the <strong>fuse</strong> or activates the <strong>circuit breaker</strong>, thus preventing further current flow.</p></div>
+            
+            </td></tr></table>
+        
+        <div id="footer"></div>        
+    </body>
+</html>
+
