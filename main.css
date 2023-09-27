@@ -12,7 +12,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 2em 2em 4em;
 }
 
@@ -39,6 +39,7 @@ a {
 
 b, strong {
     font-weight: 600;
+    color: #008B8B;
 }
 
 samp {
@@ -130,7 +131,7 @@ figure {
   font-style: italic;
   font-size: smaller;
   text-indent: 10;
-  border: thin silver solid;
+  border: none;
   margin: 1em;
   padding: 1em;
 }
