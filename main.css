@@ -66,10 +66,26 @@ img {
     }
 }
 
-th, td {
+th {
     padding: 15px;
-    background-color: #D6EEEE;
+    background-color: darkgrey;
+    font-weight: 600;
+    color: white;
 }
+
+td {
+    padding: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+
 
 ul {
   list-style: none;
@@ -93,7 +109,21 @@ ul li a {
   color: #fff;
 }
 ul li a:hover { background: #2c3e50; }
-    
+
+ul.b {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: none; 
+}
+
+ul.b li {
+  display: block;
+  position: relative;
+  float: left;
+  background: none;
+}
+
 li:hover > ul {
   display: block;
   position: absolute;
