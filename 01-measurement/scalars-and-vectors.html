@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Physical Quantities and S.I. Units</title>
+        <meta name="description" content="O-level Physics Physical Quantities and SI units">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+
+        </script> 
+        
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 1 Physical Quantities, Units and Measurement</h1>
+        
+        <h2>1.3 Scalars and Vectors</h2> (<a id="btn1" data-div="obj" onclick="reveal(this)">Objectives</a>)
+        <ol type="a" id="obj" style="display:none">
+            <li>show an understanding that physical quantities typically consist of a numerical magnitude and a unit</li>
+            <li>recall the following base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K), amount of substance (mol)</li>
+            <li>use the following prefixes and their symbols to indicate decimal sub-multiples and multiples of the SI units: nano (n), micro (μ), milli (m), centi (c), deci (d), kilo (k), mega (M), giga (G), tera (T)</li>
+            <li>show an understanding of the orders of magnitude of the sizes of common objects ranging from a typical atom to the Earth</li>
+        </ol>
+   
+        <h3>1.3.1 Differences between Scalars and Vectors</h3>
+        
+        <p>In a nutshell, scalar quantities have only magnitude and no direction, while vector quantities have both magnitude and direction.</p>
+        
+        <p>Here are the details of their differences:</p>
+        
+
+        <table align="center">
+            <tr align="center"><th>Characteristic</th><th>Scalar Quantity</th><th>Vector Quantity</th></tr>
+            <tr><td>Definition</td><td>A scalar quantity has only magnitude (size) and no direction.</td><td>A vector quantity has both magnitude and direction.</td></tr>
+            <tr><td>Example</td><td>Mass, time, temperature, speed, distance, energy, pressure</td><td>Displacement, velocity, acceleration, force, moment</td></tr>
+            <tr><td>Representation</td><td>Typically represented by a single number or value with units, e.g.<br>m = 5 kg (mass)
+                <br>t = 10 s (time)</td><td>Represented by both magnitude and direction, often using bold letters or arrows, e.g.
+                <br>$\vec{v}$ = 20 m/s north (velocity)
+                <br>$\textbf{F}$ = 50 N east (force)</td></tr>
+            <tr><td>Arithmetic Operations</td><td>Scalars can be added, subtracted, multiplied, or divided by scalars to yield scalars (e.g., adding temperatures or multiplying speed by time).</td>
+                <td>Vectors can be added or subtracted only by vectors of the same kind, and the result is also a vector.
+                <br>Scalar multiplication of a vector results in a vector (e.g., adding velocities or multiplying force by time).</td></tr>
+        </table><figure><figcaption>Differences between scalars and vectors</figcaption></figure>
+        
+        <h3>1.3.2 Addition of Vectors</h3>
+        
+        <p>When adding vectors, you place them head-to-tail in a geometric fashion, creating a resultant vector that points from the tail of the first vector to the head of the last vector.</p>
+        
+        <p>If the vectors are in the same direction, the resultant vector is also in the same direction and its magnitude is merely the addition of the magnitudes of the vectors being added.</p>
+        
+        <p>If the vectors are in different directions, the magnitude and direction of the resultant vector can be determined using vector addition rules, such as the parallelogram rule or the triangle rule. Once the vector diagrams are drawn, the magnitude of the resultant vector can be determined by scale drawing. The direction of the resultant vector can also be measured relative to another vector using a protractor.</p>
+        
+        <figure><img width="280" src="parallelogram-law-of-combination.svg">
+        <figcaption>Parallelogram rule</figcaption></figure>
+        
+        <figure><img width="280" src="vector-triangle-law.svg">
+        <figcaption>Triangle rule</figcaption></figure>
+        
+        
+        <p>The following video shows an example of how scale drawing is used to find the resultant of two vectors.</p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v6vNB_WkN6s?si=xdpLox1BtdVer0X4&amp;start=0&end=250" title="Scale drawing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p>The following applet allows you to change the direction of two vectors. Drag one of the vectors and place it at the end of the other to observe how the parallelogram rule or triangle rule works.</p>
+        
+        <iframe scrolling="no" title="Vector Addition" src="https://www.geogebra.org/material/iframe/id/cgtrmdcj/width/640/height/480/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="640px" height="480px" style="border:0px;"> </iframe>
+        
+        
+        <h3>1.3.3 Subtraction of Vectors</h3>
+        
+        <p>Subtraction of vectors is essentially the addition of the negative of a vector, where you reverse the direction of the vector you want to subtract and then follow the same vector addition process.</p>
+        
+        <figure><img src="vector-subtraction.svg">
+        <figcaption>Vector subtraction using the parallelogram rule and the triangle rule</figcaption></figure>
+
+        <div id="footer"></div>        
+    </body>
+</html>
+
