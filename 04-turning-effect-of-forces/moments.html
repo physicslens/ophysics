@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moments</title>
+        <meta name="description" content="O-level Physics Turning Effect of Forces">
+        <meta name="viewport" content="width=700, initial-scale=1.1">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+
+        </script> 
+        
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 4 Turning Effect of Forces</h1>
+        
+        <h2>4.1 Moments</h2> (<a id="btn1" data-div="obj" onclick="reveal(this)">Objectives</a>)
+        <ol start="1" type="a" id="obj" style="display:none">
+            <li>describe the moment of a force about a pivot in terms of its turning effect and relate this to everyday examples</li>
+            <li>recall and apply the relationship moment of a force (or torque) = force × perpendicular distance from the pivot to new situations or to solve related problems</li>
+        </ol>
+   
+        <h3>4.1.1 Moment</h3>
+        
+        <p>The moment of a force, also known as torque, about a pivot is a measure of its turning effect. Mathematically, it is defined as the product of the force applied and the perpendicular distance from the pivot to the line of action of the force. The formula for torque (<i>τ</i>) is:</p>
+        
+        $$\tau = F \times d$$
+        
+        where $\tau$ is the moment or torque,
+        <br>$F$ is the force, and
+        <br>$d$ is the perpendicular distance from pivot to line of action of force
+        
+        <p>The unit of torque is the Newton-meter (N m).</p>
+        
+        <p>Everyday examples of the moment of a force can be found in numerous situations:
+
+            <ul.b><li><strong>Doors and Levers</strong>: When you push or pull a door, the turning effect (torque) is determined by the force you apply and the distance from the hinge to the point where you apply the force.</li>
+            <li><strong>Wrenches and Bolts</strong>: When tightening or loosening a bolt with a wrench, the torque applied is the force you exert on the wrench multiplied by the length of the wrench.</li>
+            <li><strong>Opening a Bottle</strong>: When you use a bottle opener to open a bottle, the turning effect is created by the force applied to the bottle cap and the distance from the pivot point (the edge of the cap) to where you apply the force.</li></ul.b>
+        
+        <p>Using the applet below, you can adjust the direction of the force and observe how the perpendicular distance from its line of action and pivot is calculated.</p>
+        
+        <p>The formula for torque can hence be written as:
+
+        $$\tau = F \times L \sin{\theta}$$
+        
+        where $\tau$ is the moment or torque,
+        <br>$F$ is the force,
+        <br>$L$ is the length of the lever, and
+        <br>$\theta$ is the angle between the line of action of the force and the lever.</p>
+        
+        
+        <iframe scrolling="no" title="Moment of a Force" src="https://www.geogebra.org/material/iframe/id/qzyczffy/width/638/height/478/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="638px" height="478px" style="border:0px;"> </iframe>
+            
+        <p>Understanding the moment of a force is crucial in designing and analyzing structures, machines, and various mechanical systems. It helps engineers and designers ensure that the components can withstand the applied forces and function effectively.</p>
+        
+        <h3>4.1.2 Direction of Turning Effect</h3>
+
+        The moment of a force can be said to be either clockwise or anticlockwise when looking at the plane in which the object is able to rotate. Consider a seesaw as an example: if a person applies a downward force on the right end of the seesaw, causing it to rotate, the resulting moment is considered clockwise. Conversely, if the force is applied to the left end, inducing a rotation in the opposite direction, it is deemed an anticlockwise moment. 
+        <div id="footer"></div>        
+    </body>
+</html>
+
