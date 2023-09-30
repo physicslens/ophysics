@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pressure</title>
+        <meta name="description" content="O-level Physics Pressure">
+        <meta name="viewport" content="width=700, initial-scale=1.1">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+
+        </script> 
+        
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 5 Pressure</h1>
+        
+        <h2>5.1 Pressure</h2> (<a id="btn1" data-div="obj" onclick="reveal(this)">Objectives</a>)
+        <ol start="1" type="a" id="obj" style="display:none">
+            <li>define pressure in terms of force and area</li>
+            <li>recall and apply the relationship pressure = force / area to new situations or to solve related problems </li>
+            <li>describe and explain the transmission of pressure in hydraulic systems with particular reference to the
+hydraulic press</li>
+        </ol>
+   
+        <h3>5.1.1 Definition</h3>
+        
+        <p>Pressure is defined as the force applied perpendicular to the surface of an object per unit area over which that force is distributed. In mathematical terms, it is expressed as:</p>
+        
+        $$P = \dfrac{F}{A}$$
+        
+        where $P$ is the pressure,
+        <br>$F$ is the force applied, and
+        <br>$A$ is the area over which the force is applied
+        
+        <p>The standard unit of pressure in the International System of Units (SI) is the pascal (Pa), which is equivalent to one newton per square meter (N/m²). Other units such as atmospheres, bars, and millimeters of mercury are also used in specific contexts. Pressure is a scalar quantity, meaning it only has magnitude and no direction. It is a crucial concept in physics, fluid mechanics, and engineering.</p>
+        
+        
+        <table width="100%"><tr><td>
+            <h4>Example</h4>
+            <p>A rectangular block with a weight of 50 N is placed on top of a tray of sand. The base of the block has a length of 2 m and a width of 1 m. What is the pressure applied by the block?</p>
+            
+            <button id="btn1" data-div="ans1" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans1" style="display:none">
+                <p>$P = \dfrac{F}{A}$</p>
+                <p>$\>\>\>\>= \dfrac{50 \text{ N}}{2 \text{ m} \times 1 \text{ m}}$</p>
+                <p>$\>\>\>\>= \dfrac{50 \text{ N}}{2 \text{ m}^2}$</p>
+                <p>$\>\>\>\>= 25 \text{ Pa}$
+            </p>
+            </div>
+            
+            </td></tr></table>
+        
+        <h3>5.1.2 Hydraulic Press</h3>
+        
+        <p>A hydraulic press is a machine that utilizes the principles of Pascal's law to generate a compressive force by applying pressure. Pascal's law states that a change in pressure applied to an enclosed fluid is transmitted undiminished to all portions of the fluid and to the walls of its container.</p>
+        
+        <p>The hydraulic press consists of two sets of cylinders, each with a movable piston. The piston can move up and down inside the cylinder. Hydraulic fluid (usually oil) is used to transmit force. The fluid fills the space between the piston and the walls of the cylinder.</p>
+        
+        <p>A force is applied to a small piston (the input piston) in one part of the hydraulic press. The hydraulic fluid transmits the pressure to a larger piston (the output piston) located in another part of the hydraulic press. Since the pressure is transmitted undiminished, the force acting on the larger piston is much greater than the force applied to the smaller piston. This is due to the relationship between force, pressure, and area (as expressed in the pressure equation $P = \dfrac{F}{A}$. The larger piston, being subject to this increased pressure, experiences a greater force.</p>
+        
+        <p>Using the applet below, investigate the effect on the force on the output piston as the cross-sectional areas of the cylinders change.</p>
+        
+        <iframe scrolling="no" title="Hydraulic Press" src="https://www.geogebra.org/material/iframe/id/egyer7nk/width/638/height/478/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="638px" height="478px" style="border:0px;"> </iframe>
+        
+        <table width="100%"><tr><td>
+            <h4>Example</h4>
+            <p>A hydraulic press has a small piston with a diameter of 5 cm and a large piston with a diameter of 30 cm. A force of 500 N is applied to the small piston.</p>
+            
+            <p>Calculate the force exerted by the hydraulic press on the larger piston. Assume the hydraulic fluid is incompressible and neglect any friction or losses.</p>
+            
+            <button id="btn1" data-div="ans2" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans2" style="display:none">
+                <p>Note that the areas of both pistons uses the formula for the area of a circle</p>
+                $A = \pi r^2 = \pi (\dfrac{d}{2})^2$
+                <p>where $A$ is the area
+                <br>$r$ is the radius
+                <br>$d$ is the diameter</p>
+                <p>Area of small piston, $A_1 = \pi \times (0.025)^2 = 0.00196 \text{ m}^2$</p>
+                <p>Area of large piston, $A_2 = \pi \times (0.15)^2 = 0.0707 \text{ m}^2$</p>
+                
+                <p>Pressure on the small piston, $P_1 = \dfrac{F_1}{A_1} = \dfrac{500 \text{ N}}{0.00196 \text{ m}^2} = 2.55 \times 10^5 \text{ Pa}$</p>
+                <p>Force on the large piston, $F_2 = P_1 \times A_2 = 2.55 \times 10^5 \text{ Pa} \times 0.0707 \text{ m}^2 \approx 18 000 \text{ N}$</p>
+            </div>
+            
+            </td></tr></table>
+        
+    </body>
+</html>
+

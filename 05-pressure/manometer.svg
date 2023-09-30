@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="737.89105"
+   height="448.46317"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="fluid_tube_manometer.svg"
+   inkscape:export-filename="/home/olivier/aero/documents/cc/figures/fluid_mechanics/pressure_distribution.png"
+   inkscape:export-xdpi="19.328585"
+   inkscape:export-ydpi="19.328585">
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="DistanceStart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DistanceStart">
+      <g
+         id="g2300">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:1.14999998;stroke-linecap:square"
+           d="M 0,0 2,0"
+           id="path2306"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#000000;fill-rule:evenodd;stroke:none"
+           d="M 0,0 13,4 9,0 13,-4 0,0 z"
+           id="path2302"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square"
+           d="M 0,-4 0,40"
+           id="path2304"
+           inkscape:connector-curvature="0" />
+      </g>
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DistanceEnd"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DistanceEnd">
+      <g
+         id="g2301">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:1.14999998;stroke-linecap:square"
+           d="M 0,0 -2,0"
+           id="path2316"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#000000;fill-rule:evenodd;stroke:none"
+           d="M 0,0 -13,4 -9,0 -13,-4 0,0 z"
+           id="path2312"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square"
+           d="M 0,-4 0,40"
+           id="path2314"
+           inkscape:connector-curvature="0" />
+      </g>
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994952"
+     inkscape:cx="747.90229"
+     inkscape:cy="201.51999"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="734"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="50"
+     fit-margin-left="50"
+     fit-margin-right="50"
+     fit-margin-bottom="50"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-center="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-924.29539,-827.00396)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#f3f3f3;fill-opacity:0.05238097;stroke:#000000;stroke-width:7.23529387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path6733"
+       sodipodi:cx="1511.1882"
+       sodipodi:cy="1181.8015"
+       sodipodi:rx="248.49753"
+       sodipodi:ry="248.49753"
+       d="m 1758.6716,1204.2297 c -12.3868,136.6813 -133.2303,237.4419 -269.9115,225.0551 -136.6813,-12.3867 -237.4419,-133.2302 -225.0552,-269.9115 12.3867,-136.6812 133.2302,-237.44186 269.9115,-225.05512 119.0894,10.79248 213.6053,104.87202 224.9487,223.91012"
+       transform="matrix(0.69105691,0,0,0.69105691,104.22035,234.54731)"
+       sodipodi:start="0.090378117"
+       sodipodi:end="6.1881796"
+       sodipodi:open="true"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#f3f3f3;fill-opacity:0.05098039;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 1320.2643,1066.2439 53.6876,0 0,142.5938 c 4e-4,3.9269 1.6171,7.8294 4.3938,10.6062 2.7768,2.7767 6.6793,4.3934 10.6062,4.3938 l 64.6562,0 c 3.9269,-4e-4 7.8294,-1.6171 10.6062,-4.3938 2.7767,-2.7768 4.3934,-6.6793 4.3938,-10.6062 l 0,-248.50004 -30,0 0,233.50004 -34.6562,0 0,-142.5938 c -4e-4,-3.9269 -1.6171,-7.8294 -4.3938,-10.6062 -2.7768,-2.7767 -6.6793,-4.3934 -10.6062,-4.3938 l -68.6876,0"
+       id="path6735"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsccsccccccscc"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33" />
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#9cbff2;fill-opacity:0.71372549;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 1440.5938,1193.8438 c -1.8938,4.4395 -11.8346,0.832 -17,2 -7.2188,0 -14.4375,0 -21.6563,0 0,-24.9792 0,-49.9584 0,-74.9376 -8.6667,0 -17.3333,1e-4 -26,0 0.1976,30.1046 -0.3887,60.4406 0.2813,90.4063 1.398,8.68 11.0773,11.97 18.8124,10.5313 20.5651,-0.3309 41.3269,0.6371 61.7813,-0.4376 8.2198,-1.7963 11.114,-11.1215 9.7813,-18.5624 0,-64.5105 -1e-4,-97.7062 0,-162.2166 -8.6667,0 -17.3334,0 -26,0 -1e-4,61.5104 0,91.7061 0,153.2166 z"
+       id="path6741"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6745"
+       d="m 1440.5938,957.61224 26,0 0,83.01496 c -8.6667,0 -17.3334,0 -26,0 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DistanceStart);marker-end:url(#DistanceEnd)"
+       d="m 1541.6016,1066.2439 -0.01,54.6623"
+       id="path6204-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4469-5-4"
+       y="1100.4681"
+       x="1558.7151"
+       style="font-size:21.66271782px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       xml:space="preserve"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Italic"
+         y="1100.4681"
+         x="1558.7151"
+         id="tspan4471-0-39"
+         sodipodi:role="line">12 cm</tspan></text>
+    <path
+       inkscape:export-ydpi="114.33"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6829"
+       d="m 1541.6116,1040.6272 -0.01,25.6167"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DistanceStart);marker-end:url(#DistanceEnd)" />
+    <text
+       inkscape:export-ydpi="114.33"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       xml:space="preserve"
+       style="font-size:21.66271782px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       x="1558.7151"
+       y="1060.062"
+       id="text6833"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6835"
+         x="1558.7151"
+         y="1060.062"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Italic">4 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       x="1505.4388"
+       y="931.77991"
+       id="text4925-4-13"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33"><tspan
+         sodipodi:role="line"
+         id="tspan4927-5-2"
+         x="1505.4388"
+         y="931.77991"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Italic">p<tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:sub"
+   id="tspan6867">atm.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       x="1129.3903"
+       y="994.8822"
+       id="text4925-4-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/olivier/aero/cours fluid mech/notes/2/images/utube.png"
+       inkscape:export-xdpi="114.33"
+       inkscape:export-ydpi="114.33"><tspan
+         sodipodi:role="line"
+         id="tspan4927-5-6"
+         x="1129.3903"
+         y="994.8822"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Italic">p<tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:sub"
+   id="tspan6869">int.</tspan></tspan></text>
+  </g>
+</svg>

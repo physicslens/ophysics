@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Density and Fluid Pressure</title>
+        <meta name="description" content="O-level Physics Pressure">
+        <meta name="viewport" content="width=700, initial-scale=1.1">
+        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                // customised options
+                // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
+            });
+        </script>
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.css" integrity="sha384-NFGicHNcq1l2DafLerXQeI3h3jJY3dCcDQF+29rtRBHW7P7ti+/XIRY7ALbJOaeh" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.js" integrity="sha384-HELAAZU8xvHgfT/8z4Mhmu+E2z3oBrMEuywaMh/CEd5uTZIDSct7TEaX+S43+dOi" crossorigin="anonymous"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+        <script> 
+        $(function(){
+          $("#header").load("../header.html"); 
+          $("#footer").load("../footer.html"); 
+        });
+
+        </script> 
+        
+    </head>
+    
+    
+    <body>
+        <div id="header"></div>     
+        <h1>Unit 5 Pressure</h1>
+        
+        <h2>5.2 Density and Fluid Pressure</h2> (<a id="btn1" data-div="obj" onclick="reveal(this)">Objectives</a>)
+        <ol start="4" type="a" id="obj" style="display:none">
+            <li>recall and apply the relationship density = mass / volume to new situations or to solve related problems</li>
+            <li>recall and apply the relationship pressure due to a liquid column = height of column × density of the liquid × gravitational field strength to new situations or to solve related problems</li>
+            <li>describe how the height of a liquid column may be used to measure the atmospheric pressure</li>
+            <li>describe the use of a manometer in the measurement of pressure difference</li>
+        </ol>
+   
+        <h3>5.2.1 Density</h3>
+        
+        <p>Density is the amount of mass per unit volume. It is typically denoted by the symbol <i>ρ</i> (rho)</p>
+        
+        $$\rho = \dfrac{m}{V}$$
+        
+        where $\rho$ is the density,
+        <br>$m$ is the mass of the substance, and
+        <br>$V$ is the volume it occupies
+        
+        <p>The standard unit for density in the International System of Units (SI) is kilograms per cubic metre (kg m<sup>-3</sup>.</p>
+        
+        <p>When an object is placed in a liquid, the density of the object relative to that of the liquid determines whether it sinks or floats. Objects with: </p>
+        <ol type="a"><li>a lower density compared to the density of the medium will be partially submerged or floating.</li>
+            <li>same density as compared to the density of the medium could be fully submerged but not sinking.</li>
+            <li>higher density than the density of the medium in which it is placed in sinks.</li>
+        </ol>
+        <img src="float-or-sink.png">
+        
+        <h3>5.2.2 Pressure Due to a Liquid Column</h3>
+        
+        <p>The pressure due to a column of liquid, often referred to as hydrostatic pressure, is a result of the weight of the liquid above a given point in a fluid column. The pressure due to a liquid column = height of column × density of the liquid × gravitational field strength</p>
+        
+        <p>The hydrostatic pressure at a certain depth in a fluid is given by the equation:</p>
+        $$P = \rho g h$$
+        
+        <p>where:
+            <br>$\rho$ is the density of the liquid,
+            <br>$g$ is the acceleration due to gravity,
+            <br>$h$ is the depth of the point below the surface of the liquid.</p>
+        
+        <p>In the figure below, water pressure at a specific depth in a fluid is determined by the weight of the water above that point. When a hole is made at a lower position, the depth (and therefore the pressure) is higher. Higher pressure results in a higher initial velocity of water, causing it to travel a greater distance before hitting the ground.</p>
+        <figure>
+        <a title="نجود سلطان, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:7th_grade_oloom_jor_unit-4-2_liquid_pressure-1.png"><img width="256" alt="7th grade oloom jor unit-4-2 liquid pressure-1" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/7th_grade_oloom_jor_unit-4-2_liquid_pressure-1.png"></a>
+        <figcaption>An experiment demonstration the relationship between liquid pressure and the depth of the point below the liquid surface.</figcaption>
+        </figure>
+        
+        <table width="100%"><tr><td>
+            <h4>Example</h4>
+            <p>A diver goes from a depth of 10 m to 100 m underwater. Assuming that the gravitational field strength is 10 N kg<sup>−1</sup>, and the density of sea water is about 1030 kg m<sup>−3</sup>, determine the change in water pressure.</p>
+            
+            <button id="btn1" data-div="ans2" onclick="reveal(this)">Reveal Answer</button>
+            <div id="ans2" style="display:none">
+                <p>Pressure due to water above the diver = $h\rho g$</p>
+                <p>Pressure difference = $(100 - 10) \text{ m} \times 1030 \text{ kg m}^{-3} \times 10 \text{ m}= 927,000 \text{ Pa}$ </p>
+            </div></td></tr></table>
+        
+        <h3>5.2.3 Barometer</h3>
+        
+        <p>A mercury barometer is a device used to measure atmospheric pressure. It was invented by Evangelista Torricelli in 1643 and is based on the principle that atmospheric pressure can support a column of liquid in a sealed tube.</p>
+        
+        <p>The main component of a mercury barometer is a long, narrow glass tube that is closed at one end and open at the other. The tube is filled with mercury, and the open end is then inverted into a container of mercury, forming a reservoir. As air is not allowed into the tube with the open end submerged, the mercury in the tube creates a vacuum above it when the tube is raised vertically as shown in the figure below.</p>
+        
+        <figure>
+       <img width="256" alt="Mercury Barometer" src="mercury-barometer.png">
+        <figcaption>A mercury barometer.</figcaption>
+        </figure>
+        
+        <p>Atmospheric pressure acts on the surface of the mercury in the reservoir and tries to push mercury up the tube and is balanced by the weight of the mercury column in the tube. When equilibrium is reached, the height of the mercury column in the tube represents the atmospheric pressure. At sea level, the atmosphere exerts a pressure of approximately 760 millimetres of mercury (mmHg).</p>
+        
+        <p>To convert the unit of pressure from mmHg to Pa, the equation $p = h\rho g$ can be used. Since the density of mercury is 13 600 kg m<sup>-3</sup>, atmospheric pressure is approximately $760 \text{ mmHg} = 0.760 \text{ m} \times 13 600 \text{ kg m}^{-3} \times 10 \text { m s}^{-1} = 103,000 \text { Pa} $</p>
+        
+        <h3>5.2.4 Manometer</h3>
+        
+        <p>A manometer is a device used to measure the pressure of a gas or liquid. It typically consists of a U-shaped tube filled with a liquid, often mercury or a colored liquid, and is open to the atmosphere at one or both ends. When measuring the pressure of a gas or liquid, one end of the U-shaped tube is connected to the source of the pressure, and the other end is left open to the atmosphere. The difference in height between the two liquid columns in the U-shaped tube is directly related to the pressure difference between the two points.</p>
+        
+        <p>The basic principle behind a manometer is the balancing of pressures. The pressure of the gas or liquid being measured pushes the liquid in the tube, causing an imbalance in the levels of the liquid in the two legs of the U-shaped tube. The height difference between the two liquid columns is proportional to the pressure difference. By measuring this height difference, often in millimeters or inches, the pressure of the gas or liquid can be determined.</p>
+        
+        <p>In the diagram below, the pressure in the flask <i>P</i><sub>1</sub> is smaller than the atmospheric pressure <i>P</i><sub>2</sub>. This results in the height of the column of liquid in the side of the flask <i>h</i><sub>1</sub> being taller than that of the side exposed to the atmosphere <i>h</i><sub>2</sub>. The relationship between the difference in pressure and the difference in height can be expressed as:</p>
+        
+        $$P_2 - P_1 = (h_1 - h_2) \rho g$$    
+        
+        <p>If mercury of density 13,600 kg m<sup>-3</sup> is used in the tube, atmospheric pressure is 1.03 × 10<sup>5</sup> Pa and the heights h<sub>1</sub> and h<sub>2</sub> are 0.20 m and 0.10 m respectively, the pressure of the gas in the flask can be shown:</p>
+        
+        $$1.03 \times 10^5 \text{ Pa} - P_1 = (0.20 - 0.10)\text{ m} \times 13600 \text{ kg m}^{-3} \times 10\text{ m s}^{-2}$$
+        $$P_1 = 89400 \text{ Pa}$$
+        
+        <figure>        <a title="Steven Baltakatei Sandoval, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Fluid_tube_manometer_P1_lt_P2_rho_h_plain.svg"><img width="512" alt="Fluid tube manometer P1 lt P2 rho h plain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fluid_tube_manometer_P1_lt_P2_rho_h_plain.svg/512px-Fluid_tube_manometer_P1_lt_P2_rho_h_plain.svg.png"></a>
+        <figcaption>The difference in height h<sub>1</sub> and h<sub>2</sub> shows the difference between pressure P<sub>1</sub> and P<sub>2</sub></figcaption>
+        </figure>
+        
+        <p>When the pressure in the flask <i>P</i><sub>1</sub> is greater than the atmospheric pressure <i>P</i><sub>2</sub>. This results in the column of liquid in the side of the flask being lower. The relationship between the difference in pressure and the difference in height can be expressed as</p>
+        $$P_1 - P_2 = (h_2 - h_1) \rho g$$    
+        <figure>
+            <img width="450" alt="Manometer" src="manometer-a.png">
+            <figcaption>The positions of the liquid when <i>P</i><sub>1</sub> is more than <i>P</i><sub>2</sub></figcaption>
+        </figure>
+        
+            
+    </body>
+</html>
+
